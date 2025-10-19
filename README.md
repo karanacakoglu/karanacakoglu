@@ -29,15 +29,15 @@ Burada Google Colab üzerinde geliştirdiğim Makine Öğrenimi ve Derin Öğren
 
 **Açıklama:** Veri setinde bulunan veriler ile kişiye kredi kartı verilip-verilmeyeceği tahmin edilecektir.Model Performans seçimi için Logistic Regression, K-Neearest Neighbors(K-NN), Support Vecotr Machine(SVM), Kernel SVM, Naive Bayes, Decision Tree Classifier, Random Forest Classifier, XGBoost, LGBM modelleri denenmiştir.
 
-* **💻 Koda Erişim (Logistic Regression Google Colab):**([COLAB_PROJENIZIN_LINKI1](https://colab.research.google.com/drive/1yWg3rQzQfUi3Fr4L0x5hG_ZISOhZ8Q-P?usp=sharing))
-* * **💻 Koda Erişim (K-Neearest Neighbors(K-NN) Google Colab):**([COLAB_PROJENIZIN_LINKI2](https://colab.research.google.com/drive/1REq7rIvTSSTlJx3JUN9YF0bCwVdOH4lU?usp=sharing))
-* **💻 Koda Erişim (Support Vecotr Machine(SVM) Google Colab):** ([COLAB_PROJENIZIN_LINKI3](https://colab.research.google.com/drive/1FkwArdpGPeuVYJwj3UdG3n9p2tlI-zvg?usp=sharing))
-* **💻 Koda Erişim (Kernel SVM Google Colab):** ([COLAB_PROJENIZIN_LINKI4](https://colab.research.google.com/drive/1sQufmh4dGfh0AdvSBsqfBAbTI7cicRv2?usp=sharing))
-* **💻 Koda Erişim (Naive Bayes Google Colab):**([COLAB_PROJENIZIN_LINKI5](https://colab.research.google.com/drive/1CJKIIM6CAhG6mcJfSqWLPun2Kg97Am0s?usp=sharing))
-* **💻 Koda Erişim (Decision Tree Classifier Google Colab):** [COLAB_PROJENIZIN_LINKI6](https://colab.research.google.com/drive/16YfTJXUkLLwAh1j5vuZF4p9y6fOSyK0e?usp=sharing)
-* **💻 Koda Erişim (Random Forest Classifier Google Colab):** ([COLAB_PROJENIZIN_LINKI7](https://colab.research.google.com/drive/1ZXf7snIDopWzd0h72rTAvJOTzICENU6W?usp=sharing))
-* **💻 Koda Erişim (XGBoost Google Colab):** ([COLAB_PROJENIZIN_LINKI8](https://colab.research.google.com/drive/1kH3UZFRbJqVD_Dl7ZSlWTQRlkBaOvzMV?usp=sharing))
-* **💻 Koda Erişim (LGBM Google Colab):** ([COLAB_PROJENIZIN_LINKI9](https://colab.research.google.com/drive/1d8MbDPS3xfPlxHXGJzu1p_OkoZmu6Rjw?usp=sharing))
+* **💻 Koda Erişim (Logistic Regression Google Colab):**([logistic regression](https://colab.research.google.com/drive/1yWg3rQzQfUi3Fr4L0x5hG_ZISOhZ8Q-P?usp=sharing))
+* * **💻 Koda Erişim (K-Neearest Neighbors(K-NN) Google Colab):**([k-NN](https://colab.research.google.com/drive/1REq7rIvTSSTlJx3JUN9YF0bCwVdOH4lU?usp=sharing))
+* **💻 Koda Erişim (Support Vecotr Machine(SVM) Google Colab):** ([SVM](https://colab.research.google.com/drive/1FkwArdpGPeuVYJwj3UdG3n9p2tlI-zvg?usp=sharing))
+* **💻 Koda Erişim (Kernel SVM Google Colab):** ([Kernel SVM](https://colab.research.google.com/drive/1sQufmh4dGfh0AdvSBsqfBAbTI7cicRv2?usp=sharing))
+* **💻 Koda Erişim (Naive Bayes Google Colab):**([Naive Bayes](https://colab.research.google.com/drive/1CJKIIM6CAhG6mcJfSqWLPun2Kg97Am0s?usp=sharing))
+* **💻 Koda Erişim (Decision Tree Classifier Google Colab):** [Decision Tree Classifier](https://colab.research.google.com/drive/16YfTJXUkLLwAh1j5vuZF4p9y6fOSyK0e?usp=sharing)
+* **💻 Koda Erişim (Random Forest Classifier Google Colab):** ([Random Forest Classifier](https://colab.research.google.com/drive/1ZXf7snIDopWzd0h72rTAvJOTzICENU6W?usp=sharing))
+* **💻 Koda Erişim (XGBoost Google Colab):** ([XGBoost](https://colab.research.google.com/drive/1kH3UZFRbJqVD_Dl7ZSlWTQRlkBaOvzMV?usp=sharing))
+* **💻 Koda Erişim (LGBM Google Colab):** ([LGBM](https://colab.research.google.com/drive/1d8MbDPS3xfPlxHXGJzu1p_OkoZmu6Rjw?usp=sharing))
 
 * **📊 Dataset Kaynağı:** [Loan Prediction Problem Dataset - Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
 * **Dataset Notu:** Bu veri seti, bir finansal kuruluşun müşteri detaylarına (Gelir, Medeni Durum, Eğitim, Kredi Geçmişi vb.) dayanarak müşterinin kredi onay durumunu tahmin etmek için kullanılmıştır. Colab defterinde veriye doğrudan Kaggle API veya manuel yükleme ile erişim sağlanmıştır.
