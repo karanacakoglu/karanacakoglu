@@ -81,17 +81,17 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 
 [👉 View Full Project Repository](https://github.com/karanacakoglu/Credit-Status-Prediction/blob/main/README.md)
 
-  ### 4.Project Name: Voice Gender Prediction
-**Description**Using the 26 features in the dataset, the project predicts whether a person's voice belongs to a male or a female. The following algorithms were used for this prediction: Logistic Regression, SVM, Decision Tree Classifier, and Random Forest Classifier. The model with the lowest cost and least complexity should be selected. You can access the models via the Colab links below.
+  ### 4-Project Name: 🎙️ Voice Gender Prediction (SVM Focus)
 
-* **💻 Colab NoteBooks (Logistic Regression Google Colab):**([Logistic Regression](https://colab.research.google.com/drive/1yWg3rQzQfUi3Fr4L0x5hG_ZISOhZ8Q-P?usp=sharing))
-* **💻 Colab NoteBooks (Support Vecotr Machine(SVM) Google Colab):** ([SVM](https://colab.research.google.com/drive/1FkwArdpGPeuVYJwj3UdG3n9p2tlI-zvg?usp=sharing))
-* **💻 Colab NoteBooks (Decision Tree Classifier Google Colab):** ([Decision Tree Classifier](https://colab.research.google.com/drive/16YfTJXUkLLwAh1j5vuZF4p9y6fOSyK0e?usp=sharing))
-* **💻 Colab NoteBooks (Random Forest Classifier Google Colab):** ([Random Forest Classifier](https://colab.research.google.com/drive/1ZXf7snIDopWzd0h72rTAvJOTzICENU6W?usp=sharing))
+**Objective:** Developed an acoustic classification system to identify speaker gender using statistical voice properties.
 
-* **📊 Dataset Source:** [Gender Recognition by Voice Dataset - Kaggle](https://www.kaggle.com/datasets/primaryobjects/voicegender)
-* **Dataset Note:**  It contains information about whether a person's voice belongs to a man or a woman, using statistical data contained in the voice.csv dataset.
+**Technical Highlights:**
+* **Algorithm:** Leveraged **Support Vector Machine (SVM)** to achieve high-precision classification on a 26-feature acoustic dataset.
+* **Acoustic Analysis:** Analyzed key signal parameters such as fundamental frequency, spectral entropy, and frequency quartiles.
+* **Optimization:** Focused on finding the optimal hyperplane for gender separation in high-dimensional feature space.
+* **Development:** Implemented the end-to-end pipeline in **Google Colab**, including data normalization and SVM kernel tuning.
 
+**[👉 View Full Project Repository](https://github.com/karanacakoglu/Voice-Gender-Prediction/blob/main/README.md)**
 
 
 
