@@ -30,13 +30,15 @@
 - **Advanced Metrics:** Implementing **Dice Loss** to address extreme class imbalance.
 👉 [View Progress on GitHub](https://github.com/karanacakoglu/Brain-Tumor-Segmentation-BraTS-Challenge-)
 
-
+---
 
 ### 🫁 2. Pneumonia Detection from Chest X-Rays (Deep Learning)
 **Objective:** Automated diagnostic tool for clinical decision-making using Chest X-Ray images.
 - **Architecture:** Leveraged **ResNet18** with **Transfer Learning** for efficient medical image classification.
 - [cite_start]**Optimization:** Focused on faster training times and lower memory footprint[cite: 10].
 👉 [View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18)
+
+---
 
 ### 🔬 3. Automated Cell Tracking & Segmentation (U373 Challenge)
 
@@ -45,6 +47,8 @@
 * **Dynamic Tracking:** Integrated a **Centroid Tracking** algorithm with Euclidean distance logic to assign persistent IDs and visualize cell migration trajectories.
 * **Advanced Metrics:** Employed a hybrid **Dice Loss** and **BCE Loss** strategy to overcome low-contrast detection challenges, achieving a **0.99+ confidence score**.
 * **Real-time Analysis:** Engineered features for live velocity (pixels/frame) estimation and automated `.mp4` video encoding of the annotated tracking results.
+
+----
 
 👉 **[View Full Project on GitHub](https://github.com/karanacakoglu/U373_Tracking_Project/tree/master)**
 
