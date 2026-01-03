@@ -46,7 +46,7 @@
 * **Advanced Metrics:** Employed a hybrid **Dice Loss** and **BCE Loss** strategy to overcome low-contrast detection challenges, achieving a **0.99+ confidence score**.
 * **Real-time Analysis:** Engineered features for live velocity (pixels/frame) estimation and automated `.mp4` video encoding of the annotated tracking results.
 
-👉 **[View Full Project on GitHub](https://github.com/your_username/U373-Cell-Tracking)**
+👉 **[View Full Project on GitHub](https://github.com/karanacakoglu/U373_Tracking_Project/tree/master)**
 
 ### 🌾 4. Rice Variety Classification (Deep Learning - ResNet50)
 **Objective:** State-of-the-art model to distinguish five premium rice varieties using deep CNNs.
