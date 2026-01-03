@@ -108,3 +108,16 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 
 **[👉 View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18)**
 
+---
+
+### 🌾 Rice Variety Classification (Deep Learning - ResNet50)
+
+**Objective:** Developed a state-of-the-art classification model to distinguish between five premium rice varieties using deep convolutional neural networks.
+
+**Technical Highlights:**
+* [cite_start]**Architecture:** Leveraged the **ResNet50** (Residual Network) architecture, utilizing its 50-layer depth for high-level feature extraction.
+* [cite_start]**Computer Vision:** Optimized the model to classify **Arborio, Basmati, Ipsala, Jasmine, and Karacadag** varieties with high precision[cite: 16].
+* [cite_start]**Transfer Learning:** Fine-tuned pre-trained ImageNet weights to adapt the model to agricultural image datasets.
+* [cite_start]**Dataset:** Utilized the comprehensive **Rice Image Dataset** (Kaggle/Murat Koklu) for robust training and validation[cite: 17].
+
+**[👉 View Full Project Repository](https://github.com/karanacakoglu/Rice-Variety-Classifier)**
