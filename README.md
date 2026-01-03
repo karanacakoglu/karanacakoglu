@@ -43,7 +43,7 @@ Feature Engineering: Focused on behavioral patterns and transaction trends to op
 
 Impact: Delivered a structured solution for proactive customer retention strategies, following competition standards.
 
-👉 View Full Project Repository
+👉 [View Full Project Repository](https://github.com/karanacakoglu/Project-ING-HUB-Datathon-Customer-Churn-Prediction-ANN-CatBoost-)
 
 ---
 
