@@ -1,4 +1,27 @@
-## 🤖 My Machine Learning Projects
+# Hi there! I'm Murat Karanacakoğlu 👋
+
+[cite_start]I am a passionate **Computer Science student** at **Ankara University** (Class of 2027)[cite: 5], dedicated to bridging the gap between theoretical research and practical applications in **Deep Learning**, **Computer Vision**, and **Machine Learning**.
+
+---
+
+### 🔬 Research & Technical Interests
+- [cite_start]**Computer Vision:** Transfer Learning, Image Classification (ResNet50) [cite: 10, 15]
+- [cite_start]**Predictive Analytics:** Ensemble Learning (CatBoost), ANN, and Feature Engineering [cite: 18, 19]
+- [cite_start]**Deployment:** Developing interactive ML tools using Streamlit [cite: 30]
+
+---
+
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+---
+
+## 🤖 My Machine Learning and Deep Learning Projects
 
 Here you can find the links and brief descriptions of my Machine Learning and Deep Learning projects developed on Google Colab.
 
