@@ -5,7 +5,8 @@
 ---
 
 ### 🔬 Research & Technical Interests
-- [cite_start]**Computer Vision:** Transfer Learning, Image Classification (ResNet50) [cite: 10, 15]
+- **Medical AI:** 3D Segmentation (BraTS), Pneumonia Detection (Chest X-Ray)
+- [cite_start]**Computer Vision:** Transfer Learning, Image Classification (ResNet50/18) [cite: 10, 15]
 - [cite_start]**Predictive Analytics:** Ensemble Learning (CatBoost), ANN, and Feature Engineering [cite: 18, 19]
 - [cite_start]**Deployment:** Developing interactive ML tools using Streamlit [cite: 30]
 
@@ -17,121 +18,52 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-## 🤖 My Machine Learning and Deep Learning Projects
+## 🚀 Highlighted Research Projects
 
-Here you can find the links and brief descriptions of my Machine Learning and Deep Learning projects developed on Google Colab.
-
-### 1. Project: ING HUB Datathon: Customer Churn Prediction (ANN + CatBoost)
-
-Objective: Developed a high-performance predictive model to identify customers likely to churn by integrating and analyzing multi-source banking datasets.
-
-Technical Highlights:
-
-
-Data Integration: Engineered a unified pipeline to process monthly aggregated transaction histories (EFTs, Credit Card usage), demographic data, and time-series reference dates.
+### 🧠 1. Brain Tumor Segmentation (BraTS Challenge) | [Work in Progress]
+**Objective:** Developing an automated 3D medical image segmentation pipeline to identify brain tumor sub-regions using Multi-modal MRI scans.
+- **Architectures:** Implementing **UNet** and **ResUNet** models for voxel-wise semantic segmentation.
+- **Complex Data:** Processing **BraTS** datasets involving T1, T1ce, T2, and FLAIR MRI modalities.
+- **Advanced Metrics:** Implementing **Dice Loss** to address extreme class imbalance.
+👉 [View Progress on GitHub](https://github.com/karanacakoglu/Brain-Tumor-Segmentation-BraTS-Challenge-)
 
 
-Hybrid Modeling: Implemented and compared Artificial Neural Networks (ANN) and CatBoost algorithms to handle complex non-linear relationships and categorical features.
 
+### 🫁 2. Pneumonia Detection from Chest X-Rays (Deep Learning)
+**Objective:** Automated diagnostic tool for clinical decision-making using Chest X-Ray images.
+- **Architecture:** Leveraged **ResNet18** with **Transfer Learning** for efficient medical image classification.
+- [cite_start]**Optimization:** Focused on faster training times and lower memory footprint[cite: 10].
+👉 [View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18)
 
-Feature Engineering: Focused on behavioral patterns and transaction trends to optimize model performance metrics like AUC.
+### 🌾 3. Rice Variety Classification (Deep Learning - ResNet50)
+**Objective:** State-of-the-art model to distinguish five premium rice varieties using deep CNNs.
+- [cite_start]**Architecture:** Leveraged **ResNet50** utilizing its 50-layer depth for high-level feature extraction[cite: 15].
+- [cite_start]**Computer Vision:** Classified **Arborio, Basmati, Ipsala, Jasmine, and Karacadag** with high precision[cite: 16].
+- [cite_start]**Dataset:** Utilized the **Rice Image Dataset** (Kaggle/Murat Koklu)[cite: 17].
+👉 [View Full Project Repository](https://github.com/karanacakoglu/Rice-Variety-Classifier)
 
+---
 
-Impact: Delivered a structured solution for proactive customer retention strategies, following competition standards.
+## 📊 Data Science & Predictive Analytics
 
+### 🏛️ Financial Customer Churn Prediction (ING HUB Datathon)
+- [cite_start]**Hybrid Modeling:** Integrated **ANN** and **CatBoost** to handle complex non-linear banking data[cite: 18].
+- [cite_start]**Feature Engineering:** Focused on transaction trends to optimize **AUC**[cite: 19].
 👉 [View Full Project Repository](https://github.com/karanacakoglu/Project-ING-HUB-Datathon-Customer-Churn-Prediction-ANN-CatBoost-)
 
----
+### 💳 Comparative Credit Status Prediction
+- **Benchmarking:** Evaluated 9 different models (XGBoost, LGBM, SVM, K-NN, etc.) for loan approval.
+👉 [View Full Project Repository](https://github.com/karanacakoglu/Credit-Status-Prediction)
 
-### 2. Project Name: Telecom Customer Churn Prediction (Artificial Neural Network - ANN)
-
-* **📱 Telecom Customer Churn Prediction (Artificial Neural Network)**
-
-* **Objective:** Built a robust predictive model to identify potential churn in the telecommunications industry using behavioral customer data.
-
-* **Technical Highlights:**
-
-* **End-to-End Pipeline:** Implemented a full data science workflow including comprehensive data preprocessing and feature scaling to prepare the dataset for deep learning.
-
-* **Neural Network Architecture:** Designed and trained an Artificial Neural Network (ANN) specifically optimized for binary classification tasks.
-
-* **Environment:** Developed and tested the entire model within Google Colab, leveraging cloud-based GPU/CPU resources for training.
-
-* **Data Source:** Utilized the industry-standard Telecom Customer Churn dataset from Kaggle.
-
-* [👉 View Full Project Repository](https://github.com/karanacakoglu/Telecom-Customer-Churn-Prediction-Artificial-Neural-Network---ANN-/blob/main/README.md)
----
-
-### 3. Project Name: Credit Status Prediction
-
-* **💳 Comparative Credit Status Prediction Study**
-
-* **Objective:** Conducted a comprehensive benchmarking study to predict loan approval eligibility based on multi-dimensional financial and demographic data.
-
-* **Technical Highlights:**
-Algorithm Benchmarking: Implemented and evaluated 9 different classification models including Logistic Regression, K-NN, SVM (Linear & Kernel), Naive Bayes, Decision Tree, Random Forest, XGBoost, and LightGBM.
-
-* **Feature Analysis:** Utilized key indicators such as Credit History, Applicant Income, and Education level to assess financial risk.
-* **Performance Comparison:** Analyzed model performance metrics to identify the most robust algorithm for credit scoring.
-* **Development:** Executed a structured experimentation pipeline within Google Colab using the Kaggle API for data ingestion.
-
-[👉 View Full Project Repository](https://github.com/karanacakoglu/Credit-Status-Prediction/blob/main/README.md)
-
----
-  ### 4-Project Name: 🎙️ Voice Gender Prediction (SVM Focus)
-
-**Objective:** Developed an acoustic classification system to identify speaker gender using statistical voice properties.
-
-**Technical Highlights:**
-* **Algorithm:** Leveraged **Support Vector Machine (SVM)** to achieve high-precision classification on a 26-feature acoustic dataset.
-* **Acoustic Analysis:** Analyzed key signal parameters such as fundamental frequency, spectral entropy, and frequency quartiles.
-* **Optimization:** Focused on finding the optimal hyperplane for gender separation in high-dimensional feature space.
-* **Development:** Implemented the end-to-end pipeline in **Google Colab**, including data normalization and SVM kernel tuning.
-
-**[👉 View Full Project Repository](https://github.com/karanacakoglu/Voice-Gender-Prediction/blob/main/README.md)**
+### 🎙️ Voice Gender Prediction (SVM Focus)
+- **Acoustic Analysis:** Leveraged **SVM** to achieve high-precision classification on statistical voice features.
+👉 [View Full Project Repository](https://github.com/karanacakoglu/Voice-Gender-Prediction)
 
 ---
 
-### ### 🫁 Pneumonia Detection from Chest X-Rays (Deep Learning)
-
-**Objective:** Implemented a streamlined image classification model using the **ResNet18** architecture, focusing on computational efficiency without sacrificing accuracy.
-
-**Technical Highlights:**
-* **Architecture:** Utilized **ResNet18**, a 18-layer deep convolutional neural network, leveraging residual learning to prevent vanishing gradients.
-* **Transfer Learning:** Fine-tuned a pre-trained ResNet18 model to adapt to a specific target dataset, demonstrating expertise in leveraging pre-existing model weights.
-* [cite_start]**Performance:** Optimized for faster training times and lower memory footprint compared to deeper architectures like ResNet50. 
-* **Development:** Built using Python and Deep Learning frameworks (PyTorch/TensorFlow) in a modular notebook environment.
-
-**[👉 View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18)**
-
----
-
-### 🌾 Rice Variety Classification (Deep Learning - ResNet50)
-
-**Objective:** Developed a state-of-the-art classification model to distinguish between five premium rice varieties using deep convolutional neural networks.
-
-**Technical Highlights:**
-* [cite_start]**Architecture:** Leveraged the **ResNet50** (Residual Network) architecture, utilizing its 50-layer depth for high-level feature extraction.
-* [cite_start]**Computer Vision:** Optimized the model to classify **Arborio, Basmati, Ipsala, Jasmine, and Karacadag** varieties with high precision[cite: 16].
-* [cite_start]**Transfer Learning:** Fine-tuned pre-trained ImageNet weights to adapt the model to agricultural image datasets.
-* [cite_start]**Dataset:** Utilized the comprehensive **Rice Image Dataset** (Kaggle/Murat Koklu) for robust training and validation[cite: 17].
-
-**[👉 View Full Project Repository](https://github.com/karanacakoglu/Rice-Variety-Classifier)**
-
----
-
-### 🧠 Brain Tumor Segmentation (BraTS Challenge) | [Work in Progress]
-
-**Objective:** Developing an automated 3D medical image segmentation pipeline to identify brain tumor sub-regions (edema, enhancing tumor, necrotic core) using Multi-modal MRI scans.
-
-**Technical Highlights:**
-* **Architectures:** Implementing and benchmarking **UNet** and **ResUNet** models for voxel-wise semantic segmentation.
-* **Complex Data Handling:** Processing **BraTS (Brain Tumor Segmentation)** datasets involving four MRI modalities: T1, T1ce, T2, and FLAIR.
-* **Advanced Loss Functions:** Implementing **Dice Loss** and **Jaccard Index** to address extreme class imbalance in medical imaging.
-* **Current Status:** Finalizing the bottleneck layer optimization and skip-connection integrations to improve localization accuracy.
-
-**[👉 View Progress on GitHub](https://github.com/karanacakoglu/Brain-Tumor-Segmentation-BraTS-Challenge-)**
+### 📫 Let's Connect!
+- 📧 **Email:** [mkaranacak52@gmail.com](mailto:mkaranacak52@gmail.com)
+- 💼 **LinkedIn:** [Murat Karanacakoğlu](https://linkedin.com/in/murat-karanacakoğlu-0b595a286/)
