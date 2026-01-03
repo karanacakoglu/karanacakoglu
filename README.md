@@ -80,6 +80,7 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 * **Development:** Executed a structured experimentation pipeline within Google Colab using the Kaggle API for data ingestion.
 
 [👉 View Full Project Repository](https://github.com/karanacakoglu/Credit-Status-Prediction/blob/main/README.md)
+
 ---
   ### 4-Project Name: 🎙️ Voice Gender Prediction (SVM Focus)
 
@@ -93,5 +94,6 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 
 **[👉 View Full Project Repository](https://github.com/karanacakoglu/Voice-Gender-Prediction/blob/main/README.md)**
 
+---
 
 
