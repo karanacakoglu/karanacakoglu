@@ -121,3 +121,17 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 * [cite_start]**Dataset:** Utilized the comprehensive **Rice Image Dataset** (Kaggle/Murat Koklu) for robust training and validation[cite: 17].
 
 **[👉 View Full Project Repository](https://github.com/karanacakoglu/Rice-Variety-Classifier)**
+
+---
+
+### 🧠 Brain Tumor Segmentation (BraTS Challenge) | [Work in Progress]
+
+**Objective:** Developing an automated 3D medical image segmentation pipeline to identify brain tumor sub-regions (edema, enhancing tumor, necrotic core) using Multi-modal MRI scans.
+
+**Technical Highlights:**
+* **Architectures:** Implementing and benchmarking **UNet** and **ResUNet** models for voxel-wise semantic segmentation.
+* **Complex Data Handling:** Processing **BraTS (Brain Tumor Segmentation)** datasets involving four MRI modalities: T1, T1ce, T2, and FLAIR.
+* **Advanced Loss Functions:** Implementing **Dice Loss** and **Jaccard Index** to address extreme class imbalance in medical imaging.
+* **Current Status:** Finalizing the bottleneck layer optimization and skip-connection integrations to improve localization accuracy.
+
+**[👉 View Progress on GitHub](https://github.com/karanacakoglu/Brain-Tumor-Segmentation-BraTS-Challenge-)**
