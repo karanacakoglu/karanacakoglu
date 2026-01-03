@@ -106,5 +106,5 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 * [cite_start]**Performance:** Optimized for faster training times and lower memory footprint compared to deeper architectures like ResNet50. 
 * **Development:** Built using Python and Deep Learning frameworks (PyTorch/TensorFlow) in a modular notebook environment.
 
-**[👉 View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18](https://github.com/karanacakoglu/ImgClassifierwithResNet18))**
+**[👉 View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18) **
 
