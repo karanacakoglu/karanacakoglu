@@ -96,4 +96,15 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 
 ---
 
+### 🖼️ Image Classification with ResNet18 (Transfer Learning)
+
+**Objective:** Implemented a streamlined image classification model using the **ResNet18** architecture, focusing on computational efficiency without sacrificing accuracy.
+
+**Technical Highlights:**
+* **Architecture:** Utilized **ResNet18**, a 18-layer deep convolutional neural network, leveraging residual learning to prevent vanishing gradients.
+* **Transfer Learning:** Fine-tuned a pre-trained ResNet18 model to adapt to a specific target dataset, demonstrating expertise in leveraging pre-existing model weights.
+* [cite_start]**Performance:** Optimized for faster training times and lower memory footprint compared to deeper architectures like ResNet50. 
+* **Development:** Built using Python and Deep Learning frameworks (PyTorch/TensorFlow) in a modular notebook environment.
+
+**[👉 View Full Project Repository]([https://github.com/karanacakoglu/ImgClassifierwithResNet18](https://github.com/karanacakoglu/ImgClassifierwithResNet18))**
 
