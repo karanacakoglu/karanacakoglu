@@ -38,7 +38,17 @@
 - [cite_start]**Optimization:** Focused on faster training times and lower memory footprint[cite: 10].
 👉 [View Full Project Repository](https://github.com/karanacakoglu/ImgClassifierwithResNet18)
 
-### 🌾 3. Rice Variety Classification (Deep Learning - ResNet50)
+### 🔬 3. Automated Cell Tracking & Segmentation (U373 Challenge)
+
+* **Objective:** Developing an automated end-to-end pipeline to segment and track glioblastoma-astrocytoma cells in phase-contrast microscopy videos.
+* **Architectures:** Implementing a custom **UNet** architecture for high-fidelity pixel-wise semantic segmentation and cell detection.
+* **Dynamic Tracking:** Integrated a **Centroid Tracking** algorithm with Euclidean distance logic to assign persistent IDs and visualize cell migration trajectories.
+* **Advanced Metrics:** Employed a hybrid **Dice Loss** and **BCE Loss** strategy to overcome low-contrast detection challenges, achieving a **0.99+ confidence score**.
+* **Real-time Analysis:** Engineered features for live velocity (pixels/frame) estimation and automated `.mp4` video encoding of the annotated tracking results.
+
+👉 **[View Full Project on GitHub](https://github.com/your_username/U373-Cell-Tracking)**
+
+### 🌾 4. Rice Variety Classification (Deep Learning - ResNet50)
 **Objective:** State-of-the-art model to distinguish five premium rice varieties using deep CNNs.
 - [cite_start]**Architecture:** Leveraged **ResNet50** utilizing its 50-layer depth for high-level feature extraction[cite: 15].
 - [cite_start]**Computer Vision:** Classified **Arborio, Basmati, Ipsala, Jasmine, and Karacadag** with high precision[cite: 16].
