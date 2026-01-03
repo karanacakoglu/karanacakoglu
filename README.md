@@ -96,7 +96,7 @@ Algorithm Benchmarking: Implemented and evaluated 9 different classification mod
 
 ---
 
-### 🖼️ Image Classification with ResNet18 (Transfer Learning)
+### ### 🫁 Pneumonia Detection from Chest X-Rays (Deep Learning)
 
 **Objective:** Implemented a streamlined image classification model using the **ResNet18** architecture, focusing on computational efficiency without sacrificing accuracy.
 
