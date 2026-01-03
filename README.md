@@ -27,15 +27,23 @@ Here you can find the links and brief descriptions of my Machine Learning and De
 
 ### 1. Project: ING HUB Datathon: Customer Churn Prediction (ANN + CatBoost)
 
-**Description:** This project involves developing a model to predict whether a customer will churn on a given date, using the customers, customer_history, referance_date, referance_date_test, and sample_submission datasets. The model development initially used ANN and subsequently the CatBoost algorithms.
+Objective: Developed a high-performance predictive model to identify customers likely to churn by integrating and analyzing multi-source banking datasets.
 
-* **💻 Colab NoteBooks:** [ING HUB Datathon Colab Defteri]((https://colab.research.google.com/drive/1iE571WS9NBXVlIJStHZQlcWKFlD5SDaB?usp=sharing))
-* **📊 Dataset Note;**
-* **customer_history.csv**: File containing customers' monthly aggregated transaction history **(EFTs, credit card spending, etc.)**
-* **customers.csv**: File containing customers' demographic information **(age, gender, etc.)**.
-* **reference_data.csv:** File indicating which customers are labeled as **"lost" (churn)** on which reference date, used for model training.
-* **reference_data_test.csv**: File containing the **reference information** for test customers for whom churn prediction is requested.
-* **sample_submission.csv**: Sample file showing the required **format** for submitting predictions to the competition.
+Technical Highlights:
+
+
+Data Integration: Engineered a unified pipeline to process monthly aggregated transaction histories (EFTs, Credit Card usage), demographic data, and time-series reference dates.
+
+
+Hybrid Modeling: Implemented and compared Artificial Neural Networks (ANN) and CatBoost algorithms to handle complex non-linear relationships and categorical features.
+
+
+Feature Engineering: Focused on behavioral patterns and transaction trends to optimize model performance metrics like AUC.
+
+
+Impact: Delivered a structured solution for proactive customer retention strategies, following competition standards.
+
+👉 View Full Project Repository
 
 ---
 
